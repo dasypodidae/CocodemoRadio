@@ -23,7 +23,6 @@ tokucha
 mizuna
 tttk24
 
-トーク
-朗読
 
 jbcdokutoku
+
