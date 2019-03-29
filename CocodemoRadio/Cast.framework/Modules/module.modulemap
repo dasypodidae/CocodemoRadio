@@ -1,0 +1,11 @@
+framework module Cast {
+  umbrella header "Cast.h"
+
+  export *
+  module * { export * }
+}
+
+module Cast.Swift {
+    header "Cast-Swift.h"
+    requires objc
+}

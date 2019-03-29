@@ -1,0 +1,11 @@
+framework module Timetable {
+  umbrella header "Timetable.h"
+
+  export *
+  module * { export * }
+}
+
+module Timetable.Swift {
+    header "Timetable-Swift.h"
+    requires objc
+}

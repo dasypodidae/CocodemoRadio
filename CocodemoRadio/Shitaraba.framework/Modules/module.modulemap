@@ -1,0 +1,11 @@
+framework module Shitaraba {
+  umbrella header "Shitaraba.h"
+
+  export *
+  module * { export * }
+}
+
+module Shitaraba.Swift {
+    header "Shitaraba-Swift.h"
+    requires objc
+}
