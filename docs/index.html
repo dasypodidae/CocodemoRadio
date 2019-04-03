@@ -4,7 +4,7 @@
 <head>
   <meta name="google-site-verification" content="WLcKQN0rFhypWSEJFTRQVJvVW6_CdOt1oGjsyDqDs2g" />
   <meta charset="utf-8" />
-  <meta name="description" content="iPhone用のねとらじ配信(視聴)アプリです" />
+  <meta name="description" content="iOS(iPhone, iPad)用のねとらじ配信(視聴)アプリです" />
   <title>ココデモラジオ</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.14/dist/semantic.min.css" />
   <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
@@ -23,7 +23,7 @@
     <img src="icon.png">
     <div class="content">
       <span class="wf-nicomoji">ココデモラジオ</span>
-      <div class="sub header">iPhone用の<a href="http://ladio.net">ねとらじ</a>配信(聴取)アプリです</div>
+      <div class="sub header">iOS(iPhone, iPad)用の<a href="http://ladio.net">ねとらじ</a>配信(聴取)アプリです</div>
     </div>
   </h2>
 
@@ -46,7 +46,7 @@
         <p><i class="warning circle icon"></i>重要</p>
       </div>
       <div class="ui segment">
-        <p>このアプリのインストールまたは使用に関連して発生する一切の損害について私は一切責任を負担しません。</p>
+        <p><strong>このアプリのインストールまたは使用に関連して発生する一切の損害について私は一切責任を負担しません。</strong></p>
       </div>
       <div class="ui segment">
         <p><a href="http://www.cydiaimpactor.com">CydiaImpactor<i
@@ -54,7 +54,11 @@
         </p>
       </div>
       <div class="ui segment">
-        <p>App Storeの名前公開の罰ゲームが嫌なので、ひっそりとここに置いときます。フレームワーク公開するので誰か配信してください。</p>
+        <p>App Storeの名前公開の罰ゲームが嫌なので、ひっそりとここに置いときます。</p>
+        <p><a href="https://github.com/dasypodidae/cocodemoradio">フレームワーク入りプロジェクト<i
+              class="external square icon"></i></a>も公開しています。シミュレータと実機で動作確認できます。</p>
+        <p><strong>フレームワークの使用に関連して発生する一切の損害について私は一切責任を負担しません。商用利用は不可です。</strong></p>
+        <p>代わりにアプリ配信してくれる人がいたらお願いします。私に責任が及ぶような改変がなければ連絡や確認はいりません。</p>
       </div>
     </div>
 
@@ -72,12 +76,12 @@
         </div>
         <div class="ui segment">
           <p><a
-              href="https://github.com/dasypodidae/cocodemoradio/releases/download/v0.4/CocodemoRadio.ipa">CocodemoRadio.ipa
-              (version 0.4, iOS11.0以上)<i
+              href="https://github.com/dasypodidae/cocodemoradio/releases/download/v0.5/CocodemoRadio.ipa">CocodemoRadio.ipa
+              (version 0.5, iOS11.0以上)<i
                 class="external square icon"></i></a>をダウンロードしてください。とりあえずデスクトップに置いておくと後で見つけやすいと思います。</p>
-          <p>古いiPhone用はこちら<a
+          <p>古いiOS用はこちら<a
               href="https://github.com/dasypodidae/cocodemoradio/releases/download/v0.3/CocodemoRadio.ipa">CocodemoRadio.ipa
-              (version 0.3, iOS10.3以上)<i class="external square icon"></i></a></p>
+              (version 0.3, iOS10.3以上)<i class="external square icon"></i></a>。少しバグが残ってます。</p>
         </div>
         <div class="ui segment">
           <p>多分iOS 10(iPhone 5)以降に対応しています。PC(Windows7)を使ったiPhone5s(iOS10.3)へのサイドロードと動作の確認はしています。</p>
@@ -174,7 +178,9 @@
           </p>
         </div>
         <div class="ui  segment">
-          <p>これでアプリを使用できます。7日間の使用期限があるので、起動できなくなったら再度CydiaImpactorを使ってサイドロードしてください。</p>
+          <p>
+            これでアプリを使用できます。7日間の使用期限があるので、起動できなくなったら再度CydiaImpactorを使ってサイドロードしてください。アプリを削除すると設定や録音ファイルも消えるので、アプリを残したまま再サイドロードしてください。
+          </p>
         </div>
       </div>
 
@@ -193,15 +199,24 @@
         <p>相違点を踏まえて簡単に説明します。</p>
         <p>まずマイクとBGMを有効にして音声テストでバランスを調整してください。その際スピーカー音量の確認もお忘れなく。マイクとBGMは配信中か音声テスト中しか機能しません。</p>
         <p>BGMを聴きながら配信したい場合はイヤフォンを使用してください。配信を開始して番組表の取得が完了すると、配信情報をシェアできます。番組表は１分毎に自動更新します。</p>
-        <p>読み上げ音声はスピーカー出力されたのをマイクで拾って配信にのせる形になります。読み上げ音量とスピーカー音量のバランスに注意してください。イヤフォンを使うとBGMと同様に内部で音が合成されます。</p>
+        <p>読み上げ音声はスピーカー出力されたのをマイクで拾って配信にのせる形になります。読み上げ音量とスピーカー音量のバランスに注意してください。イヤフォン使用時は読み上げ音声は配信にのりません。</p>
         <p>アプリがバックグラウンド時のお気に入り番組の通知はシステム次第です。</p>
-        <p>録音はバックグラウンド中も配信終了まで継続しますが、iOSの仕様により通信切断等で録音が中断された場合はファイルを残せません。</p>
-      </div>
-      <div class="ui segment">
-        <p>要望等なにかあれば気軽に連絡してください。ただし対応は期待しないでください。</p>
+        <p>
+          録音はバックグラウンド中も配信終了まで継続しますが、iOSの仕様により通信切断等で録音が中断された場合はファイルを残せません。録音ファイルは「ファイル」アプリからアクセスできます。アプリを削除すると録音ファイルも消えるので、大事なものはバックアップしてください。
+        </p>
       </div>
     </div>
 
+
+    <div class="ui segments">
+      <div class="ui teal inverted segment">
+        <p><i class="envelope icon"></i>お問い合わせ</p>
+      </div>
+      <div id="contact" class="ui segment">
+        <p>要望等なにかあれば<a href="https://github.com/dasypodidae/cocodemoradio/issues">こちら<i
+              class="external square icon"></i></a>まで、捨て垢でお気軽にどうぞ。ただし対応は期待しないでください。</p>
+      </div>
+    </div>
 
 
     <a href="http://www.irasuton.com/" class="ui  image label wf-nicomoji">icon<div class="detail wf-nicomoji">いらすとん
